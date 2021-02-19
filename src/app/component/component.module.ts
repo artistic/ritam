@@ -8,6 +8,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { ComponentsRoutes } from './component.routing';
 
 import { RwandaComponent } from './rwanda/rwanda.component';
+import { LandlordsComponent } from './landlords/landlords.component';
 
 @NgModule({
   imports: [
@@ -19,7 +20,8 @@ import { RwandaComponent } from './rwanda/rwanda.component';
   ],
   declarations: [
 
-    RwandaComponent
+    RwandaComponent,
+    LandlordsComponent
   ]
 })
 export class ComponentsModule {}

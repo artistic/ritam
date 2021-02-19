@@ -1,6 +1,7 @@
 import { Routes } from '@angular/router';
 
 import { RwandaComponent } from './rwanda/rwanda.component';
+import { LandlordsComponent } from './landlords/landlords.component';
 
 export const ComponentsRoutes: Routes = [
 	{
@@ -15,6 +16,24 @@ export const ComponentsRoutes: Routes = [
 						{ title: 'Dashboard', url: '/dashboard' },
 						{ title: 'ngComponent' },
 						{ title: 'Rwanda' }
+					]
+				}
+			}
+			
+		]
+	},
+	{
+		path: '',
+		children: [
+			{
+				path: 'landlords',
+				component: LandlordsComponent,
+				data: {
+					title: 'Landlords',
+					urls: [
+						{ title: 'Landloards', url: '/landlords' },
+						{ title: 'ngComponent' },
+						{ title: 'Landloards' }
 					]
 				}
 			}

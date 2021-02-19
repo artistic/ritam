@@ -25,5 +25,13 @@ export const ROUTES: RouteInfo[] = [
     extralink: false,
     submenu: []
   },
+  {
+    path: '/component/landlords',
+    title: 'Landlords',
+    icon: 'mdi mdi-global',
+    class: '',
+    extralink: false,
+    submenu: []
+  },
   
 ];
