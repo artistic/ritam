@@ -3,8 +3,17 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  firebase: {
+    apiKey: "AIzaSyAm1DW7N51OYS0Ay_VhHaVDWZAKqYBYGzw",
+    authDomain: "ritam-b1baf.firebaseapp.com",
+    projectId: "ritam-b1baf",
+    storageBucket: "ritam-b1baf.appspot.com",
+    messagingSenderId: "450151247817",
+    appId: "1:450151247817:web:bd797dec39e23cef22c218"  
+  }
 };
+
 
 /*
  * For easier debugging in development mode, you can import the following file
